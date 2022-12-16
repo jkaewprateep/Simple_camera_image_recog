@@ -1,5 +1,5 @@
 # Simple_camera_image_recog
-Simple Windows 10 camera image recognitions
+Simple Windows 10 camera image recognitions, Windows OS suppport of external devices interfaces via plug and play, serails and communication hubs as standards. The problem is when you study and want some advance features from CV2 but you don't want to have all of riches features and that is third party in some application enrironment. You can do it easy by using Tensorflow and Python, the CV2 using is only for programming interfaces because the camera does not provided and active-X and Direct-X is not target when we using python.
 
 ## Video capture ##
 Video captures can be any interfaces program
