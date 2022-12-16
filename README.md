@@ -3,14 +3,15 @@ Simple Windows 10 camera image recognitions, Windows OS suppport of external dev
 
 ## Video capture ##
 
-Video captures can be any interfaces program, remote devices need to be significant by default they need to remarks fields as 0 or 1 or remote devcices but if not they determine from channels, telling you that is remote devices and when you work with it work carefully but device is workig the sameway if you setting it correctly.
+Video captures can be any interfaces program, remote devices need to be significant by default they need to remarks fields as 0 or 1 or remote devices but if not they determine from channels, telling you that is remote devices and when you work with it work carefully but device is workig the sameway if you setting it correctly.
 ```
 global video_capture_0
 video_capture_0 = cv2.VideoCapture(0)
 ```
 
 ## Presentation to Matlib plot ##
-Presentation to Matlib plots as continue moving images
+
+Presentation to Matlib plots as continue moving images, from the computer personal camera we inverse channels for familair picture color shades we like but if you see inverse that indicated more detail for computer but not for human us. That is because there are challange between senses of familair and contrst information you notice it instant but you cannot extracting data with the efficents way but working with computer it is all the same.
 ```
 def f1( picture ):
     return tf.constant( picture ).numpy()
