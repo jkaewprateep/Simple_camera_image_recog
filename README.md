@@ -11,7 +11,7 @@ video_capture_0 = cv2.VideoCapture(0)
 
 ## Presentation to Matlib plot ##
 
-Presentation to Matlib plots as continue moving images, from the computer personal camera we inverse channels for familair picture color shades we like but if you see inverse that indicated more detail for computer but not for human us. That is because there are challange between senses of familair and contrst information you notice it instant but you cannot extracting data with the efficents way but working with computer it is all the same.
+Presentation to Matlib plots as continue moving images, from the computer personal camera we inverse channels for familair picture color shades order, we senses inverse color more detail in contrast with the computer not for human us. That is because there are challange between senses of familair and contrast information you notice it instant but you cannot extracting data with the efficents way but working with computer it is all the same.
 ```
 def f1( picture ):
     return tf.constant( picture ).numpy()
@@ -53,7 +53,8 @@ cv2.destroyAllWindows()
 ```
 
 ## Model prediction ##
-Model prediction map its result to target label
+
+Model prediction map its result to target label, it is more accurate with few objects or velocity object but it has limitation they increase the accuracy rates by grids techniques, image masking, background information, color shading and segmentation.
 ```
 list_actual_label = [ 'Shoes', 'Duck' ]
 
